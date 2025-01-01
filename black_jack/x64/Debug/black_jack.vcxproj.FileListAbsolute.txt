@@ -1,0 +1,3 @@
+C:\black_jack\black_jack\x64\Debug\black_jack.vcxproj.AssemblyReference.cache
+C:\black_jack\black_jack\x64\Debug\blackjack.game_form.resources
+C:\black_jack\black_jack\x64\Debug\black_jack.vcxproj.GenerateResource.cache

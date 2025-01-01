@@ -1,0 +1,9 @@
+C:\black_jack\black_jack\x64\Release\black_jack.vcxproj.AssemblyReference.cache
+C:\black_jack\black_jack\x64\Release\blackjack.game_form.resources
+C:\black_jack\black_jack\x64\Release\black_jack.vcxproj.GenerateResource.cache
+D:\apps\lab_ПИ\lab12_git\project_po_opi12\black_jack\x64\Release\black_jack.vcxproj.AssemblyReference.cache
+D:\apps\lab_ПИ\lab12_git\project_po_opi12\black_jack\x64\Release\blackjack.game_form.resources
+D:\apps\lab_ПИ\lab12_git\project_po_opi12\black_jack\x64\Release\black_jack.vcxproj.GenerateResource.cache
+D:\apps\lab_ПИ\lab12_git\Новая папка\black_jack\x64\Release\black_jack.vcxproj.AssemblyReference.cache
+D:\apps\lab_ПИ\lab12_git\Новая папка\black_jack\x64\Release\blackjack.game_form.resources
+D:\apps\lab_ПИ\lab12_git\Новая папка\black_jack\x64\Release\black_jack.vcxproj.GenerateResource.cache
