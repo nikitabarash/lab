@@ -105,9 +105,24 @@ namespace blackjack {
 
 		// События для кнопок
 		void OnMakeBetClick(Object^ sender, EventArgs^ e) {
-			// Устанавливаем ставку (по умолчанию 100)
-			currentBet = 100;
-			playerBalance -= currentBet;
+			int betIncrement = 100; // Сумма, на которую увеличивается ставка при каждом нажатии
+
+			// Проверяем, достаточно ли средств для увеличения ставки
+			if (playerBalance < betIncrement) {
+				MessageBox::Show(L"Недостаточно средств для увеличения ставки!",
+					L"Ошибка",
+					MessageBoxButtons::OK,
+					MessageBoxIcon::Error);
+				return;
+			}
+
+			// Увеличиваем текущую ставку
+			currentBet += betIncrement;
+
+			// Уменьшаем баланс игрока
+			playerBalance -= betIncrement;
+
+			// Обновляем текстовые метки
 			labelBalance->Text = L"Balance: $" + playerBalance;
 			labelBet->Text = L"Current Bet: $" + currentBet;
 		}
